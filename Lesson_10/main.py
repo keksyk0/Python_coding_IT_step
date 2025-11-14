@@ -12,7 +12,7 @@ try:
         )
     ''')
 
-    list1 = [("Ivan", 25), ("Stefania", 15), ("Oleg", 14), ("Daniel", 54)]
+    list1 = [("Ivan", 24), ("Stefania", 15), ("Oleg", 14), ("Daniel", 54)]
     cursor.executemany("INSERT INTO students (name, age) VALUES (?, ?)", list1)
     conn.commit()
 
