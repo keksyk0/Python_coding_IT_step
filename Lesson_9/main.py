@@ -15,17 +15,17 @@ logging.error("User using wrong login")
 logging.fatal("Program has crashed")
 
 
-assert 2 + 2 == 4, "2 + 2 is not equal 5"
+assert 2 + 2 == 5, "2 + 2 is not equal 5"
 
-def hello(name):
-    '''
-    >>> hello("name")
-    'Hello, name!'
-
-    >>> hello("Keks")
-    'Hello, name!'
-    '''
-    return f"Hello, {name}!"
+#def hello(name):
+ #   '''
+  #  >>> hello("name")
+   # 'Hello, name!'
+#
+ #   >>> hello("Keks")
+  #  'Hello, name!'
+   # '''
+    #return f"Hello, {name}!"
 
 
 
