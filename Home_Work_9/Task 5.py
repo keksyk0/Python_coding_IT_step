@@ -1,7 +1,10 @@
 def process_list (input_list):
-    assert len(input_list) >= 3, \
-        "List have to consist of minimum 3 elements!"
-    print(f'List consist of {len(input_list)} elements.')
+
+    try:
+        assert len(input_list) >= 3
+        print(f'List consist of {len(input_list)} elements.')
+    except AssertionError:
+        print("List have to consist of minimum 3 elements!")
 
 
 input_list_1 = [input('Enter first element:'),
